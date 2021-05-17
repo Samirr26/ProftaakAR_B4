@@ -15,6 +15,7 @@ using namespace std;
 void main() {
 
     string path = "Resources/test.jpg";
+    std::cout << "Iets printen hoop ik";
     Mat img = imread(path);
     imshow("Image", img);
     waitKey(0);
